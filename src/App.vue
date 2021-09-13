@@ -1,12 +1,31 @@
 <template>
   <div id="app">
     <div id="nav">
+          <h4>Nav</h4>
+          <router-link to="/courses" title="Courses">
+             <div class="router-container">
+            </div>
+          </router-link>
+          <router-link to="/" title="Main Page">
+             <div class="router-container">
+            </div>
+          </router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
+<script>
+
+export default {
+}
+
+</script>
+
+
 <style lang="scss">
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -16,15 +35,24 @@
 }
 
 #nav {
-  padding: 30px;
+  left: 0;
+  position: absolute;
+  background-color: #1261A0;
+  width: 70px;
+  height: 100%;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+  h4 {
+    color: white;
+    margin-top: 3px;
+  }
+  
+  .router-container {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: #288FE0;
+    border-radius: 10px;
+    cursor: pointer;
   }
 }
 </style>

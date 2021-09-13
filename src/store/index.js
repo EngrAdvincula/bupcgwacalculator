@@ -35,22 +35,24 @@ export default new Vuex.Store({
     courses: [
       //BSCpE
       {
-        id: 1,
-        name: 'BSCpE',  
-        Obj: [
+        "id": 1,
+        "name": 'BS in Computer Engineering',
+        "dept": 'Engineering',
+        'yearAndSemCount': 7,  
+        "Obj": [
           {
-            id: 1,
-            year: '1ST',
-            sem: '1ST',
-            subjects: [
-                    {sub:'Differential Calculus', units: 3, grades: ''},  
-                    {sub:'Programming Logics and Design', units: 2, grades: ''},
-                    {sub:'Math in the Modern World', units: 3, grades: ''},
-                    {sub:'Chemistry for Engineers', units: 4, grades: ''},  
-                    {sub:'Computer Eng\'g as a Discipline', units: 1, grades: ''},
-                    {sub:'Science Technology and Society', units: 3, grades: ''},
-                    {sub:'Understanding the Self', units: 3, grades: ''},  
-                    {sub:'Physical Education 1', units: 2, grades: ''},
+            "id": 1,
+            "year": '1ST',
+            "sem": '1ST',
+            "subjects": [
+                    {"sub":'Differential Calculus', "units": 3, "grades": ''},  
+                    {"sub":'Programming Logics and Design', "units": 2, "grades": ''},
+                    {"sub":'Math in the Modern World', "units": 3, "grades": ''},
+                    {"sub":'Chemistry for Engineers', "units": 4, "grades": ''},  
+                    {"sub":'Computer Eng\'g as a Discipline', "units": 1, "grades": ''},
+                    {"sub":'Science Technology and Society', "units": 3, "grades": ''},
+                    {"sub":'Understanding the Self', "units": 3, "grades": ''},  
+                    {"sub":'Physical Education 1', "units": 2, "grades": ''},
             ]
             },
             {
@@ -146,7 +148,9 @@ export default new Vuex.Store({
       //BSCS
       {
         id: 2,
-        name: 'BSCS', 
+        name: 'BS in Computer Science', 
+        "dept": 'Engineering', 
+        'yearAndSemCount': 7,  
         Obj: [
           {
             id: 1,
@@ -175,7 +179,9 @@ export default new Vuex.Store({
       //BSIS
       {
         id: 3,
-        name: "BSIS",
+        name: "BS in Information System",
+        "dept": 'Engineering', 
+        'yearAndSemCount': 7,
         Obj: [
           {
           id: 1,
@@ -201,7 +207,22 @@ export default new Vuex.Store({
                 ]
             }
           ]
-      }
+      },
+      //BSIT
+      {
+          "id": 4,
+          "dept": 'Engineering',  
+          "name": 'BS in Information Technology',  
+          'yearAndSemCount': 7,
+          "Obj": []
+      },
+      {
+        "id": 5,
+        "name": 'B in Education major in English', 
+        "dept": 'Engineering',   
+        "Obj": []
+    },
+    { "id": 1, "name": "BS in Automotive Technology",  'yearAndSemCount': 7, "dept": 'TED',  "Obj": [ { "id": 1, "year": 1, "sem": 1, "subjects": [ { "sub": "Automotive 1", "units": 2, "grades": null }, { "sub": "Automotive 2", "units": 2, "grades": null } ] }, { "id": 2, "year": 1, "sem": 2, "subjects": [ { "sub": "Automotive 3", "units": 2, "grades": null }, { "sub": "Automotive 4", "units": 2, "grades": null } ] } ] }
       ]
   },
   
