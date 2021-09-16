@@ -26,6 +26,9 @@ export default {
 </script>
 
 <style>
+    .container {
+        background-color: #F6F6F6 ;
+    }
     .one {
         margin-bottom: 20px;
         margin-top: 20px;

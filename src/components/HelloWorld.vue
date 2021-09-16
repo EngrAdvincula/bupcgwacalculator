@@ -52,7 +52,11 @@ export default {
 
 
 <style lang="scss">
+
   .hello {
+    background-color: #F6F6F6 ;
+    height: 100vh;
+    width: 100vw;
     table {
       border-collapse: collapse;
       width: 80%;
