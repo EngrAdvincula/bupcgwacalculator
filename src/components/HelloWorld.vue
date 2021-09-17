@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-        <h1>COURSES</h1>
+        <h1>Courses</h1>
+        <p>Choose your Course to display Year, Sem and Subjects</p>
         <table>
             <tr>
               <th>Course</th>
@@ -54,9 +55,25 @@ export default {
 <style lang="scss">
 
   .hello {
-    background-color: #F6F6F6 ;
+    background-color: white ;
     height: 100vh;
     width: 100vw;
+    margin-left: 70px;
+    h1 {
+      margin-top: 4%;
+    }
+    h1, p {
+      font-weight: bold;
+      color: #1261A0;
+      text-align: left;
+      margin-left: 10%;
+    }
+    p {
+      color: #626262;
+      font-weight: 300;
+      margin-bottom: 2%;
+    }
+
     table {
       border-collapse: collapse;
       width: 80%;

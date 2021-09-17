@@ -1,8 +1,8 @@
 <template>
   <div class="container">
       <p>Course</p><input type="text" name="course" v-model="course"><button>Register Course</button>
-      <p>Year</p><input type="number" name="semester" v-model="year">
-      <p>Sem</p><input type="number" name="year" v-model="sem">
+      <p>Year</p><input type="text" name="semester" v-model="year">
+      <p>Sem</p><input type="text" name="year" v-model="sem">
       <h1>Subject and Units</h1>
       <p>Subject</p> <input type="text" name="subjectName" v-model="newSubject">
       <p>Equivalent Units</p> <input type="number" name="equivalentUnits" v-model="newUnits">

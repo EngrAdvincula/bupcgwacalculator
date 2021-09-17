@@ -3,11 +3,14 @@
     <div id="nav">
           <h4>Nav</h4>
           <router-link to="/courses" title="Courses">
-             <div class="router-container">
+             <div class="router-container" style="fontWeight: bold; color: white; lineHeight: 100%; paddingTop: 12%">
+               COU <br>
+               RSE
             </div>
           </router-link>
-          <router-link to="/" title="Main Page">
-             <div class="router-container">
+          <router-link to="/" title="Manual Calculator">
+             <div class="router-container" style="fontWeight: bold; color: white; lineHeight: 100%; paddingTop: 23%">
+            CAL
             </div>
           </router-link>
     </div>

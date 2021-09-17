@@ -127,6 +127,7 @@ export default {
     background-color: #F6F6F6 ;
     width: 100%;
     height: 100vh;
+    margin-left: 70px;
       .top-nav {
         background-color: #ffffff ;
         height: 70px;
@@ -320,5 +321,85 @@ export default {
 
     }
 
+  }
+
+  @media screen and (max-width:741px) {
+    .Main-container {
+      .title {
+        width: auto;
+      }
+
+      .input-calc {
+        width: auto;
+        .input-calc-container {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      .register-btn {
+        width: auto;
+      }
+
+      .result {
+        width: auto;
+        h4 {
+          right: 10%;
+        }
+      }
+
+      .grandun-label {
+        width: auto;
+        h6 {
+          width: 15%;
+        }
+      }
+
+      .gradesUnitsContainer {
+        width: auto;
+      }
+    }
+  }
+
+  @media screen and (max-width:583px) {
+    .Main-container {
+
+      .top-nav {
+        h3 {
+          font-size: 16px;
+        }
+      }
+
+      .input-calc {
+        .input-calc-container {
+          .grades-container {
+            input {
+              width: 120px;
+            }
+          }
+          .units-container {
+            input {
+              width: 120px;
+            }
+          }
+        }
+      }
+
+      .register-btn {
+        width: auto;
+      }
+
+      .result {
+        width: auto;
+      }
+
+      .grandun-label {
+        width: auto;
+      }
+
+      .gradesUnitsContainer {
+        width: auto;
+      }
+    }
   }
 </style>

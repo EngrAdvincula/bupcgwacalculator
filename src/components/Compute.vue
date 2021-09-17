@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="compute-container">
       <div class="compute-title">
           <div class="course">
               {{this.$route.params.name}}
@@ -60,16 +60,18 @@ export default {
 <style lang="scss">
 @import '@/styleSass/mixins.scss';
 
-.container {
+.compute-container {
     background-color: #F6F6F6 ;
+    width: 100%;
     height: 100vh;
-    width: 100vw;
+    padding-top: 2%;
+    margin-left: 70px;
+
     .compute-title {
         @include center-div;
         @include main-calc-container;
         height: 100px;
         position: relative;
-        margin-top: 3%;
 
         .course {
             position: absolute;
@@ -143,5 +145,80 @@ export default {
     }
 }
 
+@media screen and (max-width: 751px) {
+    .compute-container {
+        .compute-title {
+            margin-right: 10px;
+            margin-left: 10px;
+            width: auto;
+            .course {
+                display: none;
+            }
+            .your-gwa {
+                h4 {
+                    text-align: center;
+                }
+            }
+        }
 
+        .subs-container {
+            margin-right: 10px;
+            margin-left: 10px;
+            width: auto;
+
+            h5 {
+                text-align: left;
+            }
+
+            p {
+                text-align: left;
+            }
+
+        }
+
+        .compute-btn {
+            margin-right: 40px;
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .compute-container {
+
+
+        .subs-container {
+
+            h5 {
+                font-size: 16px;
+            }
+
+            p {
+                text-align: left;
+            }
+
+            input {
+                width: 100px;
+            }
+
+        }
+
+        .compute-btn {
+            @include center-div;
+            width: 90%;
+        }
+    }
+}
+
+// h5 {
+//                 font-size: 16px;
+//             }
+//             p {
+//                 font-size: 12px;
+//             }
+
+//             input {
+//                 width: 100px;
+//             }
 </style>
+

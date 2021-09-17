@@ -37,6 +37,7 @@ export default new Vuex.Store({
       {
         "id": 1,
         "name": 'BS in Computer Engineering',
+        "nname": 'BSCpE',
         "dept": 'Engineering',
         'yearAndSemCount': 7,  
         "Obj": [
@@ -106,7 +107,7 @@ export default new Vuex.Store({
             sem: '1ST',
             subjects: [
                     {sub:'Introduction to HDL', units: 1, grades: ''},  
-                    {sub:'Computer Engineering Drafting and Design', units: 1, grades: ''},
+                    {sub:'Computer Engg Drafting and Design', units: 1, grades: ''},
                     {sub:'The Entrepreneurial Mind', units: 3, grades: ''},
                     {sub:'Cognate/Elective Course 1', units: 3, grades: ''},  
                     {sub:'Logic Circuit and Design', units: 4, grades: ''},
@@ -145,84 +146,8 @@ export default new Vuex.Store({
               }
             ]
       },
-      //BSCS
-      {
-        id: 2,
-        name: 'BS in Computer Science', 
-        "dept": 'Engineering', 
-        'yearAndSemCount': 7,  
-        Obj: [
-          {
-            id: 1,
-            year: '2ND',
-            sem: '1ST',
-            subjects: [
-                    {sub:'CS1', units: 3, grades: ''},  
-                    {sub:'CS2', units: 2, grades: ''},
-                    {sub:'CS3', units: 3, grades: ''},
-                    {sub:'CS4', units: 4, grades: ''},  
-          ]
-          },
-          {
-            id: 2,
-            year: '1ST',
-            sem: '1ST',
-            subjects: [
-                  {sub:'CS5', units: 1, grades: ''},
-                  {sub:'CS6', units: 3, grades: ''},
-                  {sub:'CS7', units: 3, grades: ''},  
-                  {sub:'CS8', units: 2, grades: ''},
-        ]
-        }
-      ]
-      },
       //BSIS
-      {
-        id: 3,
-        name: "BS in Information System",
-        "dept": 'Engineering', 
-        'yearAndSemCount': 7,
-        Obj: [
-          {
-          id: 1,
-          year: '1ST',
-          sem: '1ST',
-          subjects: [
-                {sub:'Engineering Economics', units: 3, grades: ''},
-                {sub:'Fundamentals of Electrical Circuit', units: 4, grades: ''},
-                {sub:'Physical Education 3', units: 2, grades: ''},  
-                {sub:'Computer Aided Drafting', units: 1, grades: ''},
-                {sub:'Readings in the Philippine History', units: 3, grades: ''}
-              ]
-          },
-          {
-            id: 2,
-            year: '1ST',
-            sem: '2ND',
-            subjects: [
-                {sub:'Fundamentals of Electronics Circuit', units: 4, grades: ''},  
-                {sub:'Ethics', units: 3, grades: ''},
-                {sub:'The Contemporary World', units: 3, grades: ''},
-                {sub:'Life and Works of Rizal', units: 3, grades: ''}
-                ]
-            }
-          ]
-      },
-      //BSIT
-      {
-          "id": 4,
-          "dept": 'Engineering',  
-          "name": 'BS in Information Technology',  
-          'yearAndSemCount': 7,
-          "Obj": []
-      },
-      {
-        "id": 5,
-        "name": 'B in Education major in English', 
-        "dept": 'Engineering',   
-        "Obj": []
-    },
-    { "id": 1, "name": "BS in Automotive Technology",  'yearAndSemCount': 7, "dept": 'TED',  "Obj": [ { "id": 1, "year": 1, "sem": 1, "subjects": [ { "sub": "Automotive 1", "units": 2, "grades": null }, { "sub": "Automotive 2", "units": 2, "grades": null } ] }, { "id": 2, "year": 1, "sem": 2, "subjects": [ { "sub": "Automotive 3", "units": 2, "grades": null }, { "sub": "Automotive 4", "units": 2, "grades": null } ] } ] }
+      { "id": 2, "name": "BS in Information System", "dept": "CSD", "nname": "BSIS", "Obj": [ { "id": 1, "year": 1, "sem": 1, "subjects": [ { "sub": "Programming 1", "units": 3, "grades": null }, { "sub": "Programming 2", "units": 2, "grades": null } ] }, { "id": 2, "year": 2, "sem": 1, "subjects": [ { "sub": "Programming 3", "units": 3, "grades": null }, { "sub": "Programming 4", "units": 3, "grades": null } ] } ] }
       ]
   },
   
