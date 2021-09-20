@@ -126,9 +126,9 @@ export default new Vuex.Store({
                     {sub:'Basic Occupational Safety and Health', units: 3, grades: ''},
                     {sub:'Computer Network and Security', units: 4, grades: ''},
                     {sub:'Microprocessors', units: 4, grades: ''},  
-                    {sub:'Methods of Research', units: 4, grades: ''},
+                    {sub:'Methods of Research', units: 3, grades: ''},
                     {sub:'CpE Laws and Professional Practice', units: 2, grades: ''},
-                    {sub:'Cognate/Elective Course 2', units: 2,grades: ''},  
+                    {sub:'Cognate/Elective Course 2', units: 3,grades: ''},  
             ]
             },
             {
